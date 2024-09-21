@@ -120,9 +120,10 @@ nav a:focus{
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 
 .skip a{
+  position: inherit;
 
-  position: absolute;
-  top: -40px;
+  /*position: absolute;
+  /*top: -40px;
   
 }
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
